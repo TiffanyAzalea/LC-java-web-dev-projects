@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TempConverter {
     public static void main(String[] args) {
         double fahrenheit;
-
+        double celsius;
         java.util.Scanner input;
 
         input = new java.util.Scanner(System.in);
