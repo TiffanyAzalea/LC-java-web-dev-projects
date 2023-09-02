@@ -15,10 +15,10 @@ public class Strings {
 
         String word = input.nextLine();
 
-            if (firstLine.contains(word)) {
+            if (firstLine.toUpperCase().contains(word)) {
                 System.out.println("The word '" + word + "' was found.");
             } else {
-                System.out.println("The word " + word + " was not found.");
+                System.out.println("The word '" + word + "' was not found.");
             }
 
         Integer index = firstLine.indexOf(word);
