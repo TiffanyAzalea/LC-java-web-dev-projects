@@ -14,7 +14,7 @@ public class ArrayPractice {
 
         String[] splitLines = suess.split(" ");
 
-        System.out.println(Arrays.toString(splitLines));
+      //  System.out.println(Arrays.toString(splitLines));
 
     }
 }
