@@ -13,7 +13,8 @@ class BalancedBracketsTest {
 
     @Test
     public void onlyBracketsReturnsTrue() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[]"));
+        //String message = "a single set of balanced brackets returns true";
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[]")); //,message
     }
 
     @Test
